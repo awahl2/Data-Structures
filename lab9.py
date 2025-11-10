@@ -7,10 +7,8 @@ def ASCIIWordSum(s, sumArr):
             total += word_sum
             sumArr.append(word_sum)
             word_sum = 0
-            print(ch)
         else:
             word_sum += ord(ch)
-            print(ch)
 
     # add final word
     total += word_sum
